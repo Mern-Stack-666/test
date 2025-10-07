@@ -1,4 +1,9 @@
 {
-    email: "noohdeveloper@gmail.com",
-    password: "noohdeveloper"
+  "posts": [
+    { "id": 1, "title": "Hello JSON Server", "author": "Nooh" },
+    { "id": 2, "title": "React loves fake APIs", "author": "ChatGPT" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Cool!", "postId": 1 }
+  ]
 }
